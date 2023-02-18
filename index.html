@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@0.7.4/dist/tailwind.min.css" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <title>ABESaathi</title>
+  <style>
+    body {
+      background-color: rgb(150, 198, 213);
+      background-image: url(back5.avif);
+      backdrop-filter: blur(30px);
+      background-attachment: fixed;
+
+    }
+  </style>
+</head>
+
+<body>
+
+  <header class="text-gray-600 body-font">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col
+        md:flex-row items-center ">
+
+      <nav class="navbar navbar-expand-lg navbar-dark bg-black
+          fixed-top my">
+        <div class="container">
+
+          <a class="navbar-brand" href="index.html" id="abes">
+            ABE<span id="s">S</span>aathi<br>
+            <p id="t">A Web-Based Learning Portal</p>
+          </a>
+
+          <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+            class="navbar-toggler" id="icon" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse"
+            type="button"><span class="navbar-toggler-icon "></span></button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+              <li class="nav-item active ">
+                <a class="nav-link " style=" font-size: 18px; color: white;
+                    font-family: Arial, Helvetica, sans-serif;" href="index.html">HOME</a>
+              </li>
+
+
+              <li class="nav-item">
+                <a class="nav-link" style=" font-size: 18px; color: white;
+                    font-family: Arial, Helvetica, sans-serif;" href="notes.html" target="">NOTES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style=" font-size: 18px; color: white;
+                    font-family: Arial, Helvetica, sans-serif;" href="Ebooks.html" target="">EBOOKS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style=" font-size: 18px; color: white;
+                    font-family: Arial, Helvetica, sans-serif;" href="Syllabus.html" target="">SYLLABUS</a>
+              </li>
+
+              <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle" style=" font-size: 18px;
+                    color: white; font-family: Arial, Helvetica, sans-serif;" href="#" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  CODING WORLD
+                </a>
+                <ul class="dropdown-menu bg-info">
+                  <li><a class="dropdown-item" href="language.html">>>
+                      LANGUAGE TUTORIALS</a></li>
+                  <li><a class="dropdown-item" href="dsa.html">>> DSA</a></li>
+                  <li><a class="dropdown-item" href="question.html">>>
+                      ROADMAPS</a></li>
+                </ul>
+              </li>
+
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="Coding.html" target="">CODING WORLD</a>
+              </li> -->
+              <li class="nav-item">
+                <a class="nav-link" style=" font-size: 18px; color: white;
+                    font-family: Arial, Helvetica, sans-serif;" href="https://forms.gle/hNfA4VrRAJvx172F9"
+                  target="_blank">Contact
+                  Us</a>
+              </li>
+
+
+            </ul>
+
+          </div>
+
+        </div>
+
+      </nav>
+    </div>
+  </header>
+
+  <div id="carouselExampleFade" class="carousel slide carousel-dark my-5">
+    <div class="carousel-inner">
+      <div class="carousel-item active my-5">
+        <img src="7.png" class="d-block w-99" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="5.png" class="d-block w-90" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="2.png" class="d-block w-90" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="3.png" class="d-block w-90" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="4.png" class="d-block w-90" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="1.png" class="d-block w-90" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="9.png" class="d-block w-90" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class=" text-center bg-white text-black my-15">
+    <h1 style="font-weight: bolder;">Hello ABESians !!!</h1>
+  </div>
+  <div class="container my-20">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="section-header text-center pb-5">
+          <h1 class="text-red"><b>Campus Tour</b></h1>
+          <p style="font-size: 20px;font-weight: bold;" class="text-black my-10">ABESEC campus is well
+            equipped with a wide variety of modern and upgraded facilities to create a conducive environment where
+            budding
+            professionals can shape their future. The campus also caters refreshment to the students through
+            strategically
+            located cafes, juice corners, canteens and utility centers. We give massive importance to our facilities and
+            learning resources and continuously strive to ensure, that our students have full access to the enriched
+            resources, giving them ample opportunities to groom into well nurtured professionals with industry ready
+            skills.
+          </p>
+          <div class="my-10"  id="card-body">
+            <video src="Campus - Compressed with FlexClip.mp4" width="100%" height="auto" loop controls>
+              Campus Tour Video
+            </video>
+
+            <!-- <iframe src="https://www.youtube.com/watch?v=vGoiqOA6O2g" height="auto" width="100%" frameborder="0"></iframe> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- <section class="text-gray-600 body-font">
+    <div class="container mx-auto flex px-5  md:flex-row flex-col
+        items-center">
+      <div class="my-100" style="margin-right: 20px;">
+        <h1 class="text-red text-center">
+          <br class="hidden lg:inline-block text-white my-20"><b>Campus Tour</b>
+        </h1>
+        <p class="mb-8 leading-relaxed text-black" style="font-size:20px;font-weight:bold;">ABESEC campus is well
+          equipped with a wide variety of modern and upgraded facilities to create a conducive environment where budding
+          professionals can shape their future. The campus also caters refreshment to the students through strategically
+          located cafes, juice corners, canteens and utility centers. We give massive importance to our facilities and
+          learning resources and continuously strive to ensure, that our students have full access to the enriched
+          resources, giving them ample opportunities to groom into well nurtured professionals with industry ready
+          skills.</p>
+
+      </div>
+      <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6" id="card-body" style="width:100%; height:auto;">
+        <video src="Campus - Compressed with FlexClip.mp4" width="850px" height="720px" loop controls>
+          Campus Tour Video
+        </video>
+      </div>
+    </div>
+
+    <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col
+        items-center">
+      <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6" id="card-body">
+        <video src="LiABES.mp4" width="750px" height="650px" loop controls>
+          Campus Tour Video
+        </video>
+      </div>
+      
+      <div class="section-header " style="margin-left: 40px;">
+        <h1 class="text-red text-center"><b>Life@ABESEC</b></h1>
+        <p style="font-size: 20px;font-weight: bold;" class="text-black">ABES Engineering College believes in providing
+          the best college experience to the students. With state of the art facilities and upgraded infrastructure
+          ABESEC is one of the best colleges in AKTU. The technologically upgraded classrooms facilitate teaching
+          through advanced tools and techniques. The college has air-conditioned classrooms with Wi-Fi enabled
+          projectors, tutorial rooms, libraries, seminar rooms and fully equipped auditorium.
+        </p>
+      </div>
+    </div>
+  </section> -->
+
+  <div class="container my-12">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="section-header text-center pb-5">
+          <h1 class="text-red"><b>About ABESEC</b></h1>
+          <p style="font-size: 20px;font-weight: bold;" class="text-black my-10">ABES Engineering College is one of the
+            top
+            engineering colleges in Uttar Pradesh. The college has received AICTE approval and is associated with
+            AKTU,
+            Lucknow (formerly known as Uttar Pradesh Technical University). ABES Engineering college offers various UG
+            and PG courses such as B.Tech, MBA, MCA, and M.Tech. ABES Engineering College admission to all the courses
+            is based on entrance and merit. Candidates not having any valid entrance exam score can also avail
+            admission
+            through the Management quota.
+            <br>
+            B.Tech is the flagship course at ABES Engineering college with 7 specializations. The selection is done on
+            the basis of JEE Main score followed by UPTAC counselling. The College also offers lateral entry admission
+            to the BTech program. Whereas admission to M.Tech is based on GATE scores and MBA and MCA admissions are
+            based on CUET PG.
+            <br>
+            The institute has witnessed 90% placements with the highest package being offered stood at INR 47.2 LPA
+            during placement drive of 2022. Top recruiters included Amazon, TCS, Wipro, Infosys, Mphasis, Cognizant,
+            Accenture, etc.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class=" text-center font-bold bg-white text-black my-10">
+    <span style="font-size: 50px; ">Facilities </span>
+  </div>
+  <div class="container pt-5 my-5">
+    <div class="row">
+
+      <div class="col-md-4 col-lg-4">
+        <div class="card bg-black">
+          <a href="https://www.abes.ac.in/academic-facility.php"><img class="card-img-top" src="Academic facili.jpg"
+              alt="Card image cap"></a>
+          <div class="card-body p-4">
+            <h5 class="card-title shadow1 text-yellow">Academic Facilities</h5>
+            <p class="card-text ">ABES Engineering College provides a magniﬁcent and comprehensive range of facilities
+              with in the campus for its students. The classrooms at ABESEC are contemporary, equipped with ceiling
+              mounted LCD projectors. The college frequently organizes National &amp; International level
+              Conferences.....<a href="https://www.abes.ac.in/academic-facility.php"><button class="text-primary">Read
+                  More</button></a></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-lg-4">
+        <div class="card bg-black">
+          <a href="https://www.abes.ac.in/sports-facility.php"><img class="card-img-top" src="sp.jpg"
+              alt="Card image cap"></a>
+          <div class="card-body p-4">
+            <h5 class="card-title shadow1 text-yellow">Sports Facilities</h5>
+            <p class="card-text">A healthy mind resides in a healthy body. Physical activities help the students to
+              keep
+              them physically fit and active. <br> Our sports centers provide opportunities and encourage the students
+              to participate in intra-college, inter-college and university level sports competitions......<a
+                href="https://www.abes.ac.in/sports-facility.php"><button class="text-primary">Read More</button></a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-lg-4">
+        <div class="card bg-black">
+          <a href="https://www.abes.ac.in/campus-facility.php"><img class="card-img-top" src="ca.jpg"
+              alt="Card image cap"></a>
+          <div class="card-body p-4">
+            <h5 class="card-title shadow1 text-yellow">Campus Facilities</h5>
+            <p class="card-text">ABESEC campus is well equipped with a wide variety of modern and upgraded facilities
+              to
+              create a conducive environment where budding professionals can shape their future. The college campus is
+              well developed with latest facilities and modern amenities. The pleasant, friendly.....<a
+                href="https://www.abes.ac.in/campus-facility.php"><button class="text-primary">Read More</button></a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-lg-4 pt-4">
+        <div class="card bg-black">
+          <a href="https://www.abes.ac.in/residential-facility.php"><img class="card-img-top" src="res.jpg"
+              alt="Card image cap"></a>
+          <div class="card-body p-4">
+            <h5 class="card-title shadow1 text-yellow">Residential Facilities</h5>
+            <p class="card-text">ABESEC provides accommodation to the students on a first-come-first-served basis. The
+              campus is fully residential and extends a warm and cordial environment full of opportunities for
+              personal
+              growth and holistic development of the students. The hostel provides a feeling of.....<a
+                href="https://www.abes.ac.in/residential-facility.php"><button class="text-primary">Read
+                  More</button></a></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-lg-4 pt-4">
+        <div class="card bg-black">
+          <a href="https://www.abes.ac.in/library.php"><img class="card-img-top" src="li.jpg" alt="Card image cap"></a>
+          <div class="card-body p-4">
+            <h5 class="card-title shadow1 text-yellow">Library</h5>
+            <p class="card-text">Synonymous with the abode of knowledge, library of ABESEC is stocked with around 1.14
+              lac books, research journals, reports, multi-volume reference works, dictionaries, encyclopedias and
+              handbooks to propel the academic and research growth of the students and faculty members.....<a
+                href="https://www.abes.ac.in/library.php"><button class="text-primary">Read More</button></a></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-lg-4 pt-4">
+        <div class="card bg-black">
+          <a href="https://www.abes.ac.in/auditorium.php"><img class="card-img-top" src="au.jpg"
+              alt="Card image cap"></a>
+          <div class="card-body p-4">
+            <h5 class="card-title shadow1 text-yellow">Auditorium and Seminar Hall</h5>
+            <p class="card-text">A well- furnished fully air- conditioned auditorium (Raman Auditorium) with state-
+              of-
+              the- art audio, video facilities, access to the internet with approximate 500 seating capacity. The
+              auditorium facilitates for conduct of international, national and other college events such.....<a
+                href="https://www.abes.ac.in/auditorium.php"><button class="text-primary">Read More</button></a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" style="margin-top: 100px;">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="section-header text-center pb-5">
+          <h1 class="text-red"><b>Our Objective</b></h1>
+          <p style="font-size: 20px;font-weight:bold; margin-top: 60px;" class="text-black">Objective of
+            "ABESAATHI" is to help the students as well the faculty
+            members in every possible way.
+            Students don't have to wander here and there for the study
+            materials and other coding
+            related things and this would be very convenient for them at the
+            time of preparation for
+            exams and interview as well.
+            <br>Main objective is to provide the right content at the right
+            time in a easy and simple way.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="services section-padding" id="services">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="card text-white text-center bg-black pb-2">
+            <div class="card-body ">
+              <i class="bi bi-laptop"></i>
+              <h3 class="card-title text-success c ">HandWritten Notes</h3>
+              <p class="lead">Get one of the best Notes of ABESEC for which
+                you're searching for!!</p><a href="notes.html"><button class="btn bg-success text-dark"
+                  style="border-radius: 13px;">Start Learning</button></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="card text-white text-center bg-black pb-2">
+            <div class="card-body">
+              <i class="bi bi-journal"></i>
+              <h3 class="card-title text-warning c">Syllabus</h3>
+              <p class="lead">Get the Latest Syllabus as prescribed by AKTU in
+                2022-23.
+                Just Click Below!!
+              </p><a href="Syllabus.html"><button class="btn bg-warning
+                    text-dark" style="border-radius: 13px;">Get Now
+                </button></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="card text-white text-center bg-black pb-2">
+            <div class="card-body">
+              <i class="bi bi-intersect"></i>
+              <h3 class="card-title text-info c">Ebooks</h3>
+              <p class="lead">Get the books including the text-books and
+                references(Quantums)!!
+
+              </p><a href="Ebooks.html"><button class="btn bg-info text-dark" style="border-radius: 13px;">
+                  Click Me</button></a>
+            </div>
+          </div>
+        </div>
+        <div class="my-3"></div>
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="card text-white text-center bg-black pb-2">
+            <div class="card-body">
+              <i class="bi bi-laptop"></i>
+              <h3 class="card-title text-primary c">Languages</h3>
+              <p class="lead">Learn the Programming Languages like C/C++ Java
+                Python etc!!</p><a href="language.html"><button class="btn
+                    bg-primary text-dark" style="border-radius: 13px;">Let's Learn</button></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="card text-white text-center bg-black pb-2">
+            <div class="card-body">
+              <i class="bi bi-intersect"></i>
+              <h3 class="card-title text-danger c">DSA</h3>
+              <p class="lead">Learn Data Structures and Algorithm from one of
+                the best teachers!!
+              </p><a href="dsa.html"><button class="btn bg-danger text-dark" style="border-radius: 13px;">Learn
+                  Now
+                </button></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="card text-white text-center bg-black pb-2">
+            <div class="card-body">
+              <i class="bi bi-journal"></i>
+              <h3 class="card-title c">PYQs</h3>
+              <p class="lead ">Click below to access the previous year question papers of 1st and 2nd Year !!
+
+              </p><a href="https://drive.google.com/drive/u/1/folders/1aoOOfbsKCuj3RQkGKIgN_WA7-l5vJhYA" target="_blank"><button class="btn bg-white text-dark" style="border-radius: 13px;">Click Here
+            </button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="contact section-padding" id="contact">
+    <div class="container mt-5 mb-5">
+      <!-- <div class="row">
+        <div class="col-md-12">
+          <div class="section-header text-center pb-5">
+            <h2>Our Mentor</h2>
+            <p>Mrs. Shalini Singh</p>
+
+          </div>
+        </div>
+      </div> -->
+      <div class="row m-0">
+        <div class="col-md-12 p-0 pt-4 pb-4">
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-black p-2 text-center">
+    <div class="container">
+      <p class="text-white "style="font-size:19px">All Right Reserved By Us - <b><br><a href="https://www.linkedin.com/in/abhay-pandey-628aa4229/"style="color:white">@Abhay Pandey</a></b><br><a href="https://www.linkedin.com/in/adarsh-chaudhary-8ab98b229/"style="color:white"><b>@Adarsh Chaudhary</b></a>
+
+      </p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+    integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+
+
+<!-- <div class="" style="margin-left: 100px;">
+          <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium
+            text-red">
+            <br class="hidden lg:inline-block text-white"><b>Campus Tour</b>
+          </h1>
+          <p class="mb-8 leading-relaxed text-white">ABES Engineering College believes in providing the best college experience to the students. With state of the art facilities and upgraded infrastructure ABESEC is one of the best colleges in AKTU. The technologically upgraded classrooms facilitate teaching through advanced tools and techniques. The college has air-conditioned classrooms with Wi-Fi enabled projectors, tutorial rooms, libraries, seminar rooms and fully equipped auditorium.</p>
+
+        </div> -->
